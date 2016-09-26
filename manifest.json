@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "My Cool Extension",
+  "version": "0.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://download-music-vkontakte.org/*"
+      ],
+      "js": ["jquery.min.js", "get_music.js"]
+    }
+  ]
+}
